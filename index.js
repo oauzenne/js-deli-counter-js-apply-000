@@ -1,7 +1,22 @@
-function takeANumber (currentLine, newPerson){
-currentLine.push(newPerson)
-return `Welcome, ${newPerson}. You are number ${currentLine.length} in line.`;
+// function takeANumber (currentLine, newPerson){
+// currentLine.push(newPerson)
+// return `Welcome, ${newPerson}. You are number ${currentLine.length} in line.`;
+// }
+
+var num=1
+function takeANumber (currentLine){
+return num
+return num++
 }
+
+takeANumber(line) -> 1 
+takeANumber(line) -> 2 
+nowServing(line) -> 1 
+nowServing(line) -> 2 
+takeANumber(line) -> 3
+
+
+
 
 function nowServing(katzDeliLine){
 if (katzDeliLine.length===0){
